@@ -2,7 +2,7 @@
 
 .rightBar{
     @include themify($themes){
-    flex: 4;
+    flex: 3;
     position: sticky;
     height: calc(100vh - 50px);
     top: 50px;
