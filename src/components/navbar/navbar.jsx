@@ -23,7 +23,7 @@ const Navbar = () => {
         <Link to="/" style={{textDecoration: "none"}}>
           <span>Logo</span>
         </Link>
-        <HomeOutlinedIcon/>
+        <Link to="/"><HomeOutlinedIcon/></Link>
         {darkMode ? <WbSunnyOutlinedIcon onClick={toggle}/> : <DarkModeOutlinedIcon onClick={toggle}/> }
         <GridViewOutlinedIcon/>
         <div className="search">
