@@ -81,20 +81,16 @@
                     align-items: center;
                     gap: 10px;
 
-                    button{
-                        border: none;
-                        padding: 5px;
-                        color: white;
-                        cursor: pointer;
-
+                    span{
                         &:first-child{
-                            background-color: #5271ff;
+                            color: #5271ff;
                         }
 
                         &:last-child{
-                            background-color: #f0544f;
+                            color: #f0544f;
                         }
                     }
+
                 }
             }
 

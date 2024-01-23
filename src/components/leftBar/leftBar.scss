@@ -19,14 +19,14 @@
     }
 
     .container{
-        padding:20px;
+        padding:30px 20px;
 
-        hr{
-            margin: 0px 0px;
-            border: none;
-            height: 0.5px;
-            background-color: themed("border");
-        }
+        // hr{
+        //     margin: 0px 0px;
+        //     border: none;
+        //     height: 0.5px;
+        //     background-color: themed("border");
+        // }
 
         span{
             font-size: 12px;
@@ -35,7 +35,7 @@
         .menu{
             display: flex;
             flex-direction: column;
-            gap: 15px;
+            gap: 25px;
 
             .user{
                 display:flex;
