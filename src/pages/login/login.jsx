@@ -16,8 +16,8 @@ const Login = () => {
     <div className="login">
       <div className="card">
         <div className="left">
-          <h1>Hello World</h1>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam culpa inventore voluptates tenetur eum accusamus, nostrum eligendi numquam earum voluptas saepe sapiente fugit cum odit expedita deserunt vel minima obcaecati?</p>
+          <h1>VitalLink</h1>
+          <p>Enter the Gateway to Fitness, Forge Friendships for Life!</p>
           <span>Don't you have an account?</span>
           <Link to="/register"><button>Register</button></Link>
           

@@ -7,8 +7,8 @@ const Register = () => {
     <div className="register">
       <div className="card">
         <div className="left">
-          <h1>Hello World</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias totam, consequuntur sed ducimus impedit porro tenetur quo, tempora aliquid debitis quisquam, quia consectetur magnam ut ipsam amet voluptatum laboriosam officia.</p>
+          <h1>VitalLink</h1>
+          <p>Enter the Gateway to Fitness, Forge Friendships for Life!</p>
           <span>Do you already have an account?</span>
           <Link to="/login"><button>Login</button></Link>
           
