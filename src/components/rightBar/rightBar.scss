@@ -1,4 +1,5 @@
 @import "../../style.scss";
+@import "@fontsource/cormorant-garamond";
 
 .rightBar{
     @include themify($themes){
@@ -7,6 +8,8 @@
     height: calc(100vh - 50px);
     top: 50px;
     overflow: scroll;
+    font-family: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif";
+    // "Cormorant Garamond";
     background-color: themed("bgSoft");
 
     @include mobile{

@@ -1,4 +1,5 @@
 @import "../../style.scss";
+@import "@fontsource/cormorant-garamond";
 
 .navbar{
     @include themify($themes){
@@ -8,7 +9,8 @@
     padding: 10px 20px;
     height: 30px;
     border-bottom: 1px solid themed("border");
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif";
+    // "Cormorant Garamond";
     position: sticky;
     top: 0;
     background-color: themed("bg");
@@ -20,10 +22,9 @@
         align-items: center;
         gap: 30px;
 
-        span{
-            font-weight: bold;
-            font-size: 20px;
-            color: themed("logo");
+        img{
+            height: 30px;
+            width: 80px;
         }
 
         .search{
@@ -66,6 +67,7 @@
             align-items: center;
             gap: 10px;
             font-weight: 500;
+            
 
             @include tablet{
                 display: none;   
@@ -77,8 +79,8 @@
                 border-radius: 50%;
                 object-fit: cover;
             }
-            span{
-                font-family: Arial, Helvetica, sans-serif;
+            h5{
+                font-size: 16px;
             }
         }
     }

@@ -1,5 +1,6 @@
 import React, {useContext} from 'react'
 import "./navbar.scss"
+import logo from "../../assets/vl.png"
 import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
 import DarkModeOutlinedIcon from '@mui/icons-material/DarkModeOutlined';
 import GridViewOutlinedIcon from '@mui/icons-material/GridViewOutlined';
@@ -21,7 +22,7 @@ const Navbar = () => {
     <div className="navbar">
       <div className="left">
         <Link to="/" style={{textDecoration: "none"}}>
-          <span>Logo</span>
+          <img src={logo} alt="logo" />
         </Link>
         <Link to="/"><HomeOutlinedIcon/></Link>
         {darkMode ? <WbSunnyOutlinedIcon onClick={toggle}/> : <DarkModeOutlinedIcon onClick={toggle}/> }

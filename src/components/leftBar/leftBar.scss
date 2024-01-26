@@ -1,4 +1,5 @@
 @import "../../style.scss";
+@import "@fontsource/cormorant-garamond";
 
 .leftBar{
     @include themify($themes){
@@ -7,6 +8,8 @@
     height: calc(100vh - 50px);
     top: 50px;
     overflow: scroll;
+    font-family: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif";
+    // "Cormorant Garamond";
     background-color: themed("bg");
     color: themed("textColor");
 
@@ -19,7 +22,7 @@
     }
 
     .container{
-        padding:30px 20px;
+        padding: 30px 20px;
 
         // hr{
         //     margin: 0px 0px;
@@ -48,8 +51,20 @@
                     border-radius: 50%;
                     object-fit: cover;
                 }
-                span{
-                    font-size: 14px;
+                h5{
+                    font-size: 16px;
+                }
+            }
+
+            hr{
+                margin: 0px 20px;
+                border: none;
+                height: 0.5px;
+                width: 180px;
+                background-color: #b8b8b8;
+
+                @include tablet{
+                    width: 110px;
                 }
             }
 

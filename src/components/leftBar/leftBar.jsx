@@ -26,6 +26,7 @@ const LeftBar = () => {
             <img src={currentUser.profilePicture} alt="" />
             <h5>{currentUser.name}</h5>
           </div>
+          <hr />
           <div className="item">
             <img src={Friends} alt="friends-img" />
             <span>Friends</span>
@@ -49,11 +50,11 @@ const LeftBar = () => {
           <div className="item">
             <img src={Memories} alt="friends-img" />
             <span>Memories</span>
-          </div> */}
+          </div> */} 
+          
+          {/* </div> */}
 
-          {/* <hr />
-
-          <div className="menu">
+          {/* <div className="menu">
             <span>Your shortcuts</span>
             <div className="item">
               <img src={Events} alt="friends-img" />
@@ -70,7 +71,7 @@ const LeftBar = () => {
             <div className="item">
               <img src={Videos} alt="friends-img" />
               <span>Videos</span>
-            </div> */}
+            </div> */} 
             
           {/* </div> */}
 
