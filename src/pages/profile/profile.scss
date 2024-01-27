@@ -129,6 +129,8 @@
 @import "../../style.scss";
 
 .profile {
+  font-family: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif";
+  
   @include themify($themes) {
     background-color: themed("bgSoft");
 
