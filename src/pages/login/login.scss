@@ -11,13 +11,12 @@
         display: flex;
         background-color: white;
         border-radius: 10px;
-        min-height: 600px;
+        min-height: 580px;
         overflow: hidden;
 
         .left{
             flex:1;
-            background: linear-gradient(rgba(39, 11, 96, 0.5), rgba(39, 11, 96, 0.5));
-            // insert url instead
+            background: linear-gradient(rgba(39, 11, 96, 0.5), rgba(39, 11, 96, 0.5)), url("https://cbx-prod.b-cdn.net/COLOURBOX61705088.jpg?height=800&quality=90") center;
             background-size: cover;
             padding: 90px 50px;
             display: flex;
