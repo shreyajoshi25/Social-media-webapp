@@ -46,6 +46,18 @@
 
             }
 
+            hr{
+                margin: 0px 20px;
+                border: none;
+                height: 0.5px;
+                width: 180px;
+                background-color: #b8b8b8;
+
+                @include tablet{
+                    width: 110px;
+                }
+            }
+
             .user{
                 display: flex;
                 align-items: center;
