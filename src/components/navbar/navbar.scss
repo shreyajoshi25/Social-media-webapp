@@ -13,7 +13,8 @@
     // "Cormorant Garamond";
     position: sticky;
     top: 0;
-    background-color: themed("bg");
+    background-color: rgba(39, 11, 96, 0.5);
+    // themed("bg");
     color: themed("textColor");
     z-index: 999;
 
